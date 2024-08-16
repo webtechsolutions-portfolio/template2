@@ -1,0 +1,56 @@
+@media (max-width: 800px) {
+  .banner {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #f1f1f1;
+    padding: 15px 0;
+    border: 1px solid #ccc;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+
+  .banner-content {
+    display: inline-block;
+    width: 100%;
+    animation: banner 60s linear infinite;
+  }
+
+  @keyframes banner {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
+@media (min-width: 801px) {
+  .banner {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+    background: #f1f1f1;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+
+  .banner-content {
+    display: inline-block;
+    animation: banner 80s linear infinite;
+    width: 100%;
+  }
+
+  @keyframes banner {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+}
