@@ -1,0 +1,30 @@
+.aboutus__container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.aboutus__wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.aboutus__wrapper__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  box-sizing: border-box;
+  min-height: 20vh;
+}
+.aboutus__wrapper__column h1 {
+  font-size: 3rem;
+}
+.aboutus__wrapper__column h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
