@@ -25,14 +25,14 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    width: 85%;
+    width: 100%;
     gap: 30px;
   }
   .socials__wrapper__row h1 {
     font-size: 0.8rem;
     font-weight: 400;
     cursor: pointer;
-    width: 30%;
+    width: 27%;
     text-align: center;
   }
   .socials__icon__wrapper {
@@ -41,6 +41,9 @@
     min-width: 10%;
     align-items: center;
     gap: 5px;
+  }
+  .socials__icon__wrapper h1 {
+    width: 100%;
   }
 }
 @media (min-width: 801px) and (max-width: 1600px) {
@@ -68,7 +71,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 85%;
     gap: 30px;
   }
@@ -85,6 +88,9 @@
     min-width: 10%;
     align-items: center;
     gap: 5px;
+  }
+  .socials__icon__wrapper h1 {
+    width: 100%;
   }
 }
 @media (min-width: 1601px) {

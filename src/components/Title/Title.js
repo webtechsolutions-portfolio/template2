@@ -7,7 +7,7 @@ const Title = (props) => {
       <h3>{props.text1}</h3>
       <h1>{props.text2}</h1>
       <div className="title__wrapper">
-        <img src={logo} />
+        <img src={logo} alt="logo" />
         <h2>{props.text3}</h2>
       </div>
     </div>
