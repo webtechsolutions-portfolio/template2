@@ -29,11 +29,6 @@ const Aboutus = () => {
       </div>
       <div className="aboutus__wrapper">
         <div className="aboutus__wrapper__column">
-          <IconContext.Provider value={{ color: "black", size: "100%" }}>
-            <IoMdPhotos />
-          </IconContext.Provider>
-        </div>
-        <div className="aboutus__wrapper__column">
           <h1>Przykładowy tekst Przykładowy tekst</h1>
           <h2>
             Przykładowy tekst Przykładowy tekst Przykładowy tekst Przykładowy
@@ -45,6 +40,11 @@ const Aboutus = () => {
               <p>Więcej informacji</p>
             </IconContext.Provider>
           </div>
+        </div>
+        <div className="aboutus__wrapper__column">
+          <IconContext.Provider value={{ color: "black", size: "100%" }}>
+            <IoMdPhotos />
+          </IconContext.Provider>
         </div>
       </div>
       <div className="aboutus__wrapper">

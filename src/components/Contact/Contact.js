@@ -15,13 +15,13 @@ const Contact = () => {
         </div>
         <div className="contact__wrapper__column">
           <form className="contact__form">
-            <label>text</label>
+            <label>tekst</label>
             <input></input>
-            <label>text</label>
+            <label>tekst</label>
             <input></input>
-            <label>text</label>
+            <label>tekst</label>
             <input></input>
-            <label>text</label>
+            <label>tekst</label>
             <textarea></textarea>
           </form>
           <div className="contact__wrapper">
@@ -32,7 +32,7 @@ const Contact = () => {
             </p>
           </div>
           <div className="contact__wrapper">
-            <button className="header__button__black">WYŚLIJ WIADOMOŚĆ</button>
+            <button className="contact__button__black">WYŚLIJ WIADOMOŚĆ</button>
           </div>
         </div>
       </div>

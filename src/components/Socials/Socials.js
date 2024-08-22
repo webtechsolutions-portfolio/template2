@@ -15,26 +15,39 @@ const Socials = () => {
           <h1>Polityka prywatności</h1>
         </div>
         <div className="socials__wrapper__row">
-          <IconContext.Provider value={{ color: "black", size: "20px" }}>
-            <IoLogoInstagram />
-          </IconContext.Provider>
-          <h1>Instagram</h1>
-          <IconContext.Provider value={{ color: "black", size: "20px" }}>
-            <FaLinkedin />
-          </IconContext.Provider>
-          <h1>LinkedIn</h1>
-          <IconContext.Provider value={{ color: "black", size: "20px" }}>
-            <FaSquareXTwitter />
-          </IconContext.Provider>
-          <h1>Twitter</h1>
-          <IconContext.Provider value={{ color: "black", size: "20px" }}>
-            <IoLogoYoutube />
-          </IconContext.Provider>
-          <h1>YouTube</h1>
-          <IconContext.Provider value={{ color: "black", size: "20px" }}>
-            <FaTiktok />
-          </IconContext.Provider>
-          <h1>TikTok</h1>
+          <div className="socials__icon__wrapper">
+            <IconContext.Provider value={{ color: "black", size: "20px" }}>
+              <IoLogoInstagram />
+            </IconContext.Provider>
+            <h1>Instagram</h1>
+          </div>
+
+          <div className="socials__icon__wrapper">
+            <IconContext.Provider value={{ color: "black", size: "20px" }}>
+              <FaLinkedin />
+            </IconContext.Provider>
+            <h1>LinkedIn</h1>
+          </div>
+
+          <div className="socials__icon__wrapper">
+            <IconContext.Provider value={{ color: "black", size: "20px" }}>
+              <FaSquareXTwitter />
+            </IconContext.Provider>
+            <h1>Twitter</h1>
+          </div>
+
+          <div className="socials__icon__wrapper">
+            <IconContext.Provider value={{ color: "black", size: "20px" }}>
+              <IoLogoYoutube />
+            </IconContext.Provider>
+            <h1>YouTube</h1>
+          </div>
+          <div className="socials__icon__wrapper">
+            <IconContext.Provider value={{ color: "black", size: "20px" }}>
+              <FaTiktok />
+            </IconContext.Provider>
+            <h1>TikTok</h1>
+          </div>
         </div>
       </div>
     </div>
