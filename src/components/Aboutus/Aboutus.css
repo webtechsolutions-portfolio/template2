@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  box-sizing: border-box;
+  margin-top: 10vh;
 }
 .aboutus__wrapper {
   display: flex;
@@ -27,4 +29,27 @@
 .aboutus__wrapper__column h2 {
   font-size: 1.5rem;
   font-weight: 300;
+}
+.aboutus__wrapper__row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.aboutus__wrapper__row p {
+  cursor: pointer;
+  position: relative;
+}
+.aboutus__wrapper__row p::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px; /* Grubość podkreślenia */
+  bottom: -3px;
+  left: 0;
+  background-color: #000; /* Kolor podkreślenia */
+  transition: width 0.3s ease-out;
+}
+
+.aboutus__wrapper__row p:hover::after {
+  width: 100%;
 }

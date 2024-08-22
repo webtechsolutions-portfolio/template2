@@ -4,6 +4,7 @@ import Marquee from "./components/Banner/Banner";
 import BlackSection from "./components/BlackSection/BlackSection";
 import Contact from "./components/Contact/Contact";
 import Header from "./components/Header/Header";
+import Socials from "./components/Socials/Socials";
 import Title from "./components/Title/Title";
 
 function App() {
@@ -28,6 +29,9 @@ function App() {
       </section>
       <section>
         <Aboutus />
+      </section>
+      <section>
+        <Socials />
       </section>
     </div>
   );

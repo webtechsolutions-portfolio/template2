@@ -1,0 +1,32 @@
+.socials__container {
+  display: flex;
+  min-height: 20vh;
+  background-image: linear-gradient(
+    to right,
+    black 33%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: top;
+  background-size: 10px 1px;
+  background-repeat: repeat-x;
+}
+.socials__wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.socials__wrapper__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 40px;
+}
+.socials__wrapper__row h1 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  cursor: pointer;
+}

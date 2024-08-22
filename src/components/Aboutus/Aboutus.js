@@ -14,9 +14,12 @@ const Aboutus = () => {
             Przykładowy tekst Przykładowy tekst Przykładowy tekst Przykładowy
             tekst
           </h2>
-          <IconContext.Provider value={{ color: "black", size: "50px" }}>
-            <FaLongArrowAltRight /> More info
-          </IconContext.Provider>
+          <div className="aboutus__wrapper__row">
+            <IconContext.Provider value={{ color: "black", size: "50px" }}>
+              <FaLongArrowAltRight />
+              <p>Więcej informacji</p>
+            </IconContext.Provider>
+          </div>
         </div>
         <div className="aboutus__wrapper__column">
           <IconContext.Provider value={{ color: "black", size: "100%" }}>
@@ -36,9 +39,12 @@ const Aboutus = () => {
             Przykładowy tekst Przykładowy tekst Przykładowy tekst Przykładowy
             tekst
           </h2>
-          <IconContext.Provider value={{ color: "black", size: "50px" }}>
-            <FaLongArrowAltRight /> More info
-          </IconContext.Provider>
+          <div className="aboutus__wrapper__row">
+            <IconContext.Provider value={{ color: "black", size: "50px" }}>
+              <FaLongArrowAltRight />
+              <p>Więcej informacji</p>
+            </IconContext.Provider>
+          </div>
         </div>
       </div>
       <div className="aboutus__wrapper">
@@ -48,9 +54,12 @@ const Aboutus = () => {
             Przykładowy tekst Przykładowy tekst Przykładowy tekst Przykładowy
             tekst
           </h2>
-          <IconContext.Provider value={{ color: "black", size: "50px" }}>
-            <FaLongArrowAltRight /> More info
-          </IconContext.Provider>
+          <div className="aboutus__wrapper__row">
+            <IconContext.Provider value={{ color: "black", size: "50px" }}>
+              <FaLongArrowAltRight />
+              <p>Więcej informacji</p>
+            </IconContext.Provider>
+          </div>
         </div>
         <div className="aboutus__wrapper__column">
           <IconContext.Provider value={{ color: "black", size: "100%" }}>
